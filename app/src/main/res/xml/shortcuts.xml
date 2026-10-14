@@ -1,0 +1,8 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:shortcutId="resume" android:enabled="true" android:shortcutShortLabel="@string/sc_resume">
+        <intent android:action="wt.RESUME" android:targetPackage="com.example.worktimer" android:targetClass="com.example.worktimer.MainActivity" />
+    </shortcut>
+    <shortcut android:shortcutId="stop" android:enabled="true" android:shortcutShortLabel="@string/sc_stop">
+        <intent android:action="wt.STOP" android:targetPackage="com.example.worktimer" android:targetClass="com.example.worktimer.MainActivity" />
+    </shortcut>
+</shortcuts>
